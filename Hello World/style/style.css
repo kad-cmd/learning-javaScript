@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'whyte';
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* ------------ Navigation Bar at the top-right ------------ */
+
+.logo {
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.nav-bar {
+    background-color: white;
+    padding-top: 30px;
+}
+
+.ul-link {
+    float: right;
+}
+
+.li-links {
+    display: inline;
+    margin-right: 10px;
+}
+
+.li-links a {
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+        /* 'text-decoration' is applied to anchor elements(<a>) */
+}
+
+hr {
+    color: azure;
+}
+
+main {
+    background-color: white;
+    padding: 2%;
+    margin-left: 10%;
+}
